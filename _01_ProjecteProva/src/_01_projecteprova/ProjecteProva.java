@@ -6,9 +6,15 @@ public class ProjecteProva {
         // VARIBALES
         String nom = "Jorgé"; // Nom de la persona
         String cognom = "Rubìo"; // Nom de la persona
-        int edat = 31;
-        double mitadEdad;
-        double dinero = 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0;
+        int edat = 31; // ENTERO
+        double mitadEdad; // DECIMAL
+        double dinero = 10000000000000000000000000000000000000000.0;
+        
+        char miChar = 'J'; // char un únic caràcter
+        
+        boolean miBoolean = true; // boolean sols true o false
+        
+        System.out.println("Mi char es: " + miChar);
         
         // CODI
         System.out.println("El seu nom es " + nom + " i el seu cognom es " 

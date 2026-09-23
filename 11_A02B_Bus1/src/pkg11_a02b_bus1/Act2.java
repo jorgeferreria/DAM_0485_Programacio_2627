@@ -8,7 +8,7 @@ public class Act2 {
         int pugenStop1 = 6, pugenStop2 = 8, pugenStop3 = 5, 
                 numTrajectes = 15;
         double nombrePassatgersMitjanaRecorregut, nombrePassatgersMitjanaDia, 
-                preuBillet = 1.20, recaptacio, parades = 3.0;
+                preuBillet = 1.20, recaptacio, parades = 3;
         
         //CODI
         
