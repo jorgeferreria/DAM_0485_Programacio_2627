@@ -20,16 +20,14 @@ public class _03_EntradaDades {
         edad = lector.nextInt();
         
         // BUIDAR BUFFER
-        lector.nextLine();
+        lector.nextLine(); // Elimina el salto de linia que queda en buffer
+        // después del nextInt()
         
         System.out.print("Dime tu nombre: ");
         nom = lector.nextLine();
         
         System.out.print("Dime tu inicial: ");
         inicial = lector.nextLine().charAt(0); // CHAR
-        
-        System.out.print("Dime tu edad: ");
-        edad = lector.nextInt();
         
         System.out.print("Dime tu altura: ");
         altura = lector.nextDouble();
