@@ -16,6 +16,12 @@ public class _03_EntradaDades {
         boolean mayorEdad;
         
         // CODI
+        System.out.print("Dime tu edad: ");
+        edad = lector.nextInt();
+        
+        // BUIDAR BUFFER
+        lector.nextLine();
+        
         System.out.print("Dime tu nombre: ");
         nom = lector.nextLine();
         
