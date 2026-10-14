@@ -28,7 +28,8 @@ public class Act4 {
         System.out.print("Dis-me el teu nom? ");
         nom = lector.nextLine();
         
-        resultat = edat < 25 && hora >= 9 && hora <= 12 && !matriculat /* matriculat == false */;
+        resultat = edat < 25 && hora >= 9 && hora < 12 && !matriculat /* matriculat == false */;
+        //resultat = edat < 25 && (hora == 's' || hora =='S') && !matriculat /* matriculat == false */;
         
         System.out.printf("Hola %s, en el teu cas, "
                 + "el descompte a la matrícula és: %B\n", nom, resultat);
