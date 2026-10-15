@@ -1,20 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package _05_casting;
 
-/**
- *
- * @author jrubio55
- */
 public class _05_Casting {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+             long varLong = (long)10000000000000.0;
+             
+             int a = 7, b = 2;
+             
+             double div = (double)a/b;
+             
+             System.out.println(div);
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
     
 }
