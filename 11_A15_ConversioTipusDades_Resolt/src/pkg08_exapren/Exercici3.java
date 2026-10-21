@@ -58,7 +58,7 @@ public class Exercici3 {
         divDouble = (valorByte1 * valorLong2) / valorDouble1;
         castFloat = (float) divDouble;
         //cal parèntesi!!
-        floatDirecte = (float) ((valorByte1 * valorLong2) / valorDouble1);
+        floatDirecte = (float) (valorByte1 * valorLong2 / valorDouble1);
 
         //6. Indica el tipus de la variable result6
         //RAONA LA RESPOSTA

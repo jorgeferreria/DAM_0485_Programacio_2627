@@ -19,13 +19,14 @@ public class Exercici4 {
     public static void main(String[] args) {
         Scanner llegit = new Scanner(System.in);
         final short IVA = 21;
+        final int CENT = 100;
         double senseIVA;
         float ambIVA;
 
         System.out.print("Preu del llibre sense IVA? ");
         senseIVA = llegit.nextDouble();
 
-        ambIVA = (float) senseIVA * (1 + (float) IVA / 100);
+        ambIVA = (float) senseIVA * (1 + (float) IVA / CENT);
 
         System.out.printf("Preu del llibre amb IVA: %.2f€\n", ambIVA);
 
