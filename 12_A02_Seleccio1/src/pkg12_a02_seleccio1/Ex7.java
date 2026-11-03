@@ -15,9 +15,9 @@ public class Ex7 {
         
         if ( opcio >= 1 && opcio <= 4){
             System.out.print("Dis-me el primer número: ");
-            num1 = lector.nextInt();
+            num1 = lector.nextDouble();
             System.out.print("Dis-me el segon número: ");
-            num2 = lector.nextInt();
+            num2 = lector.nextDouble();
             
             switch (opcio) {
                 case 1:
