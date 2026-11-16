@@ -16,31 +16,35 @@ public class Act2 {
 //            System.out.print("Dis-me el número: ");
 //            num = sc.nextInt();
 //
-//            if (num == 0) {
-//                salir = true;
-//            } else if (num % 3 == 0) {
-//                System.out.println(num + " és divisible!!!");
-//            } else {
-//                System.out.println(num + " NO és divisible!!!");
+//            if (num > 0) {
+//                if (num == 0) {
+//                    salir = true;
+//                } else if (num % 3 == 0) {
+//                    System.out.println(num + " és divisible!!!");
+//                } else {
+//                    System.out.println(num + " NO és divisible!!!");
+//                }
 //            }
+//
 //        }
 //
 //
 //
         // BUCLE DO-WHILE
-//        do {            
-//            
+//        do {
+//
 //            System.out.print("Dis-me el número: ");
 //            num = sc.nextInt();
-//
-//            if (num == 0) {
-//                salir = true;
-//            } else if (num % 3 == 0) {
-//                System.out.println(num + " és divisible!!!");
-//            } else {
-//                System.out.println(num + " NO és divisible!!!");
+//            if (num > 0) {
+//                if (num == 0) {
+//                    salir = true;
+//                } else if (num % 3 == 0) {
+//                    System.out.println(num + " és divisible!!!");
+//                } else {
+//                    System.out.println(num + " NO és divisible!!!");
+//                }
 //            }
-//            
+//
 //        } while (!salir);
 //
 //
@@ -50,11 +54,12 @@ public class Act2 {
 //        num = sc.nextInt();
 //
 //        while (num != 0) {
-//
-//            if (num % 3 == 0) {
-//                System.out.println(num + " és divisible!!!");
-//            } else {
-//                System.out.println(num + " NO és divisible!!!");
+//            if (num > 0) {
+//                if (num % 3 == 0) {
+//                    System.out.println(num + " és divisible!!!");
+//                } else {
+//                    System.out.println(num + " NO és divisible!!!");
+//                }
 //            }
 //            System.out.print("Dis-me el número: ");
 //            num = sc.nextInt();
