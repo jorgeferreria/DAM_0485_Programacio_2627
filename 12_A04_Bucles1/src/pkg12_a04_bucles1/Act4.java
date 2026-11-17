@@ -24,6 +24,7 @@ public class Act4 {
                 }
             }
         }
+        System.out.println("FI");
 
     }
 
