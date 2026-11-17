@@ -15,12 +15,15 @@ public class Act4 {
         }
 
         System.out.print("Els divisors de " + numero + " són: ");
-        for (int i = 1; i <= numero / 2; i++) {
+        for (int i = 1; i <= numero; i++) {
             if (numero % i == 0) {
-                System.out.print(i + ", ");
+                if (i < numero){
+                    System.out.print(i + ", ");
+                } else {
+                    System.out.print(i+ "\n");
+                }
             }
         }
-        System.out.println(numero);
 
     }
 
